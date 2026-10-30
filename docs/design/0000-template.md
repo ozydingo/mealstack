@@ -35,3 +35,9 @@ flowchart LR
 ## Open questions
 
 ## Plan
+
+## Appendix: Decision log
+
+<!-- Dated one-liners: what was decided and why. Superseded options move here so the body stays the current design. -->
+
+- YYYY-MM-DD: 
