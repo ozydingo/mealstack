@@ -33,29 +33,12 @@ These terms are early and will change, but use them consistently until they do.
 
 ## Ways of working
 
-### Everything is tracked in Linear
+Work is tracked in the **mealstack** project in the Schwamilton Linear workspace. Process details and progress live there, not in this repo; read the project's **Ways of working** doc before starting work.
 
-The project is **mealstack** in the Schwamilton Linear workspace. Linear is the source of truth for what is in flight; the repo is the source of truth for what is decided and built.
+The parts that touch the repo:
 
-- Every piece of work has a Linear issue. Every agent conversation is linked from its issue, so any conversation can be found and resumed.
-- An agent conversation that starts without an issue gets one as soon as it is more than a quick answer. The issue records the goal, the current state, and a link to the conversation.
-- Commits and PRs reference their issue ID.
-- Project structure (milestones, labels, sub-projects) emerges from use. Add structure when it is evidently useful, not before.
-
-### Design before implementation
-
-Attention is the bottleneck, and the best use of it is review and iteration at the design level. Nontrivial work starts with a design doc in [`docs/design/`](docs/design/), and implementation starts once the design is agreed.
-
-Design docs have two layers:
-
-- **Above the fold** is what a reviewer reads to make the decision: the problem in 3–5 bullets, the system shape in exec-digestible terms, and high-level diagrams (sequence, flow, ERD). It avoids code names and detail that wouldn't change a decision at this altitude.
-- **Below the fold** holds everything else: data models, interfaces, alternatives considered, open questions, and the plan.
-
-Align on the problem bullets before writing the rest. A wrong problem statement makes everything below it wasted work. Start from [the template](docs/design/0000-template.md).
-
-### Phone-first review
-
-Development is driven from a phone. Prefer artifacts that read well on a small screen: short sections, tables over prose for comparisons, Mermaid diagrams over images, and PRs small enough to review in one sitting.
+- **Design before implementation.** Nontrivial work starts with a design doc in [`docs/design/`](docs/design/), from [the template](docs/design/0000-template.md). Above the fold: the problem in 3–5 bullets, the system shape, and high-level diagrams, with no code names. Below the fold: everything else.
+- **Small PRs.** Review happens on a phone. Keep PRs reviewable in one sitting, and reference the Linear issue ID in commits and PRs.
 
 ## Status
 

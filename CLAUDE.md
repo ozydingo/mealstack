@@ -1,8 +1,10 @@
 # Agent instructions
 
-Read [README.md](README.md) first, especially **Ways of working**. In short:
+Read [README.md](README.md) first, then the **Ways of working** doc in the **mealstack** project of the Schwamilton Linear workspace. It is the full process; this file is only a pointer.
 
-- Work is tracked in the **mealstack** project in the Schwamilton Linear workspace. If this conversation has no Linear issue and becomes more than a quick answer, create one with the goal, current state, and a link to this conversation, then reference its ID in commits and PRs.
-- Design before implementation. For nontrivial work, write or update a design doc in `docs/design/` from the template and get agreement before writing code. Keep above-the-fold content free of code names and detail that wouldn't change the decision.
-- The reviewer is on a phone. Keep summaries short and PRs small.
+Non-negotiables:
+
+- **Every conversation is linked from a Linear issue.** If this conversation has no issue and becomes more than a quick answer, create one. Attach this conversation's URL to it, and keep the issue's status and current state up to date. Linear, not Claude Code, is how conversations are found, resumed, and closed.
+- **Keep working details out of this public repo.** Conversation links, status, and notes go in Linear.
+- **Design before implementation.** Use `docs/design/` and its template. Get agreement before writing code.
 - Use the vocabulary in the README (batch cook, component, meal, repurpose, plan).
