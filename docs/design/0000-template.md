@@ -1,34 +1,44 @@
 # NNNN: Title
 
-**Status:** Draft | In review | Agreed | Superseded by NNNN
-**Issue:** [LINEAR-ID](link)
+**Status:** Problem review | Shape review | UX review | Architecture review | Agreed | Superseded by NNNN
+**Issue:** LINEAR-ID
+
+<!-- See README.md in this folder. Write and review one stage at a time. -->
 
 ## Problem
 
-<!-- 3–5 bullets. What is wrong or missing, and why it matters. Get agreement here before writing the rest. -->
+<!-- 3–5 bullets: what is wrong or missing, and why it matters. If it doesn't fit, it may be a wish list. -->
 
 -
 -
+-
+
+## North stars
+
+<!-- A few bullets, linked to any north star docs. The proposal aligns with them or deviates on purpose (say which). -->
+
 -
 
 ## System shape
 
-<!-- A few sentences an exec could follow: the moving parts, what each is responsible for, and how they connect. No code names. -->
-
-## Diagrams
-
-<!-- Sequence, flow, or ERD in Mermaid. Only what supports the decision. -->
+<!-- The moving parts, what each is responsible for, and how they connect, in terms an exec could follow. No specific tools, method names, or code exploration. -->
 
 ```mermaid
 flowchart LR
     A --> B
 ```
 
+<!-- Stop here and get review before writing below the fold. -->
+
 ---
 
-<!-- Below the fold: everything a reviewer may want but doesn't need to make the decision. -->
+## UX
 
-## Details
+<!-- Flows, scenarios, screens. Review before architecture. -->
+
+## Architecture
+
+<!-- Deeper diagrams, data model, edge cases, error handling, performance, integration, rollout. -->
 
 ## Alternatives considered
 
@@ -40,4 +50,4 @@ flowchart LR
 
 <!-- Dated one-liners: what was decided and why. Superseded options move here so the body stays the current design. -->
 
-- YYYY-MM-DD: 
+- YYYY-MM-DD:

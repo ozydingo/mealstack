@@ -37,7 +37,7 @@ Work is tracked in the **mealstack** project in the Schwamilton Linear workspace
 
 The parts that touch the repo:
 
-- **Design before implementation.** Nontrivial work starts with a design doc in [`docs/design/`](docs/design/), from [the template](docs/design/0000-template.md). Above the fold: the problem in 3–5 bullets, the system shape, and high-level diagrams, with no code names. Below the fold: everything else. Keep the doc current as the design changes; history goes in its decision log appendix.
+- **Design before implementation.** Nontrivial work starts with a design doc, reviewed in stages from problem to architecture. See [`docs/design/`](docs/design/README.md).
 - **Small PRs.** Review happens on a phone. Keep PRs reviewable in one sitting, and reference the Linear issue ID in commits and PRs.
 
 ## Status

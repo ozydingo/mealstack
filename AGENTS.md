@@ -8,5 +8,5 @@ Non-negotiables:
 - **Keep the issue current as you work.** Rewrite its body (goal, current state, next) and update its status whenever state changes, and before going idle. The issue alone should be enough to resume.
 - **Current truth on top, history in an appendix.** Issue bodies and design docs hold only what's true now. Decisions and superseded options go in a *Decision log* appendix.
 - **Keep working details out of this public repo.** Conversation links, status, and notes go in Linear.
-- **Design before implementation.** Use `docs/design/` and its template. Get agreement before writing code.
+- **Design before implementation.** Follow [`docs/design/README.md`](docs/design/README.md): review in stages, problem first. Get agreement before writing code.
 - Use the vocabulary in the README (batch cook, component, meal, repurpose, plan).
